@@ -1,0 +1,50 @@
+body {
+    background-color:609966;
+  }
+  
+  h1 {
+    color: EDF1D6;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 10px;
+  }
+
+
+  .buttonRow {
+    display: flex;
+    justify-content: center;
+    color:EDF1D6;
+    background-color: 40513B;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    border-width: 4px;
+    left: 50%;
+  }
+
+  .buttonDelete {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 85;
+    background-image: url(https://www.clipartmax.com/png/small/10-109443_back-x-clip-art-close-button-icon-png.png);
+    size: 10;
+    background-size: cover;
+    top: 170;
+}
+  .note {
+    width: 200px;
+   height: 200px;
+    text-align: center;
+    margin: 20px;
+     background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+        border: 2px solid #422800;
+        border-radius: 2px;
+        box-shadow: #422800 4px 4px 0 0;
+        float:left;
+  }
+  

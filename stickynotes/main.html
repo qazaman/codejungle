@@ -1,0 +1,33 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title> Welcome to the jungle</title>
+    
+</head>
+
+<body>
+    <script src="app.js"></script> 
+ <h1>Code Jungle</h1>
+ <h1 id = "timee">Time</h1>
+ <script>setInterval(() => showTime(), 1000)</script>
+
+ <input class="buttonRow" type="button" value="Click here to create a sticky note below:" onclick=" createSquare(200)" />
+ <input class="buttonRow" type="button" value="Avatar" onclick=" showAvatar()" />
+ <input class="buttonRow" type="button" value="log sneaky list" onclick=" logList()" />
+ <input class="buttonRow" type="button" value="Force time" onclick=" showTime()" />
+
+
+ <ul id = "invisilist">
+    <script>invisilist.hidden=true;</script>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+    <li>five</li>
+    <li>six</li>
+ </ul>
+ 
+<!--<div id="elem">A blinking element</div>--> 
+</body>
