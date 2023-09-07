@@ -15,7 +15,7 @@ body {
 
 
   .buttonRow {
-    display: flex;
+   
     justify-content: center;
     color:EDF1D6;
     background-color: 40513B;
@@ -36,6 +36,19 @@ body {
     background-size: cover;
     top: 170;
 }
+
+#stickyNoteBox {
+  width: 1500px;
+ height: 600;
+  text-align: center;
+  margin: 20px;
+   background: linear-gradient(109.6deg, rgb(248, 248, 245) 11.2%, rgb(187, 187, 185) 100.2%);
+      border: 2px solid #422800;
+      border-radius: 20px;
+      box-shadow: #422800 4px 4px 0 0;
+      float:left;
+}
+
   .note {
     width: 200px;
    height: 200px;
@@ -48,3 +61,41 @@ body {
         float:left;
   }
   
+  form {
+    font: 1em sans-serif;
+    max-width: 320px;
+  }
+  
+  p > label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  fieldset {
+    width: 100%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+  
+  #recieptList {
+    max-width: 300px;
+
+    text-align: center;
+    margin: 20px;
+     background: linear-gradient(109.6deg, rgb(255, 255, 255) 11.2%, rgb(187, 187, 185) 100.2%);
+        border: 1px solid #422800;
+        border-radius: 3px;
+        box-shadow: #422800 4px 4px 0 0;
+     
+  }
